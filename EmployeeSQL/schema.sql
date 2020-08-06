@@ -3,6 +3,7 @@ CREATE TABLE titles (
     title VARCHAR   NOT NULL,
     PRIMARY KEY (title_id)
 );
+
 CREATE TABLE employees (
     emp_no INT   NOT NULL,
     emp_title_id VARCHAR NOT NULL,
