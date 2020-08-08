@@ -1,20 +1,25 @@
--- 1) Salary by employee
-SELECT  emp.emp_no,
-        emp.last_name,
-        emp.first_name,
-        emp.sex,
-        sal.salary
-FROM employees as emp
-    LEFT JOIN salaries as sal
-    ON (emp.emp_no = sal.emp_no)
-ORDER BY emp.emp_no;
+-- Data Analysis --
 
--- 2) Employees hired in 1986
+-- 1) List employee number, last name, first name, sex and salary
+-- Use employees (e) table and salary (s) table
+SELECT  e.emp_no,
+        e.last_name,
+        e.first_name,
+        e.sex,
+        s.salary
+FROM employees as e
+    LEFT JOIN salaries as s
+    ON (e.emp_no = s.emp_no)
+ORDER BY e.emp_no;
+
+-- 2) List first name, last name and hire date for employees hired in 1986
+-- Use employees table
 SELECT first_name, last_name, hire_date
 FROM employees
 WHERE hire_date BETWEEN '1986-01-01' AND '1986-12-31';
 
--- 3) Manager of each department
+-- 3) List manager of each department with department number, department name, manager's employee number, last name and first name
+-- Use dept_manager (dm), departments (d) and employees (e) tables
 SELECT  dm.dept_no,
         d.dept_name,
         dm.emp_no,
@@ -26,8 +31,8 @@ FROM dept_manager AS dm
     INNER JOIN employees AS e
         ON (dm.emp_no = e.emp_no);
 
-
--- 4) Department of each employee
+-- 4) List department of each employee with employee number, last name, first name, department name
+-- Use employees (e), departments (d), dept_emp (de) tables
 SELECT  e.emp_no,
         e.last_name,
         e.first_name,
@@ -39,13 +44,15 @@ FROM employees AS e
         ON (de.dept_no = d.dept_no)
 ORDER BY e.emp_no;
 
--- 5) Employees whose first name is "Hercules" and last name begins with "B"
-SELECT first_name, last_name, birth_date, sex
+-- 5) List first name, last name and sex for employees whose first name is "Hercules" and last name begins with "B"
+-- Use employees table
+SELECT first_name, last_name, sex
 FROM employees
 WHERE first_name = 'Hercules'
 AND last_name LIKE 'B%';
 
--- 6) Employees in the Sales department
+-- 6) List employees in the sales department; include employee number, last name, first name and department name
+-- Use employees (e), departments (d), dept_emp (de) tables
 SELECT  e.emp_no,
         e.last_name,
         e.first_name,
@@ -58,7 +65,8 @@ FROM employees AS e
 WHERE d.dept_name = 'Sales'
 ORDER BY e.emp_no;
 
--- 7) Employees in Sales and Development departments
+-- 7) List employees in the sales and development departments; include employee number, last name, first name and department name
+-- Use employees (e), departments (d), dept_emp (de) tables
 SELECT  e.emp_no,
         e.last_name,
         e.first_name,
@@ -71,14 +79,15 @@ FROM employees AS e
 WHERE d.dept_name IN ('Sales', 'Development')
 ORDER BY e.emp_no;
 
--- 8) The frequency of employee last names
+-- 8) List the frequency of employees last names in descending order
+-- Use employees table
 SELECT last_name, COUNT(last_name)
 FROM employees
 GROUP BY last_name
 ORDER BY COUNT(last_name) DESC;
 
--- Epilogue - Search your own ID number:  499942
+-- Epilogue - search your own ID number:  499942
+-- Use employees table
 SELECT * FROM employees
-WHERE emp_no = '499942' ;
-
--- Result:  April Foolsday!!!!  
+WHERE emp_no = '499942';
+-- Result:  April Foolsday!!!! --
