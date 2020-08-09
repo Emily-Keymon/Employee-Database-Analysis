@@ -51,7 +51,7 @@ FROM employees
 WHERE first_name = 'Hercules'
 AND last_name LIKE 'B%';
 
--- 6) List employees in the sales department; include employee number, last name, first name and department name
+-- 6) List employees in the sales department - include employee number, last name, first name and department name
 -- Use employees (e), departments (d), dept_emp (de) tables
 SELECT  e.emp_no,
         e.last_name,
@@ -65,7 +65,7 @@ FROM employees AS e
 WHERE d.dept_name = 'Sales'
 ORDER BY e.emp_no;
 
--- 7) List employees in the sales and development departments; include employee number, last name, first name and department name
+-- 7) List employees in the sales and development departments - include employee number, last name, first name and department name
 -- Use employees (e), departments (d), dept_emp (de) tables
 SELECT  e.emp_no,
         e.last_name,
@@ -79,14 +79,14 @@ FROM employees AS e
 WHERE d.dept_name IN ('Sales', 'Development')
 ORDER BY e.emp_no;
 
--- 8) List the frequency of employees last names in descending order
+-- 8) List the frequency count of employees last names in descending order
 -- Use employees table
 SELECT last_name, COUNT(last_name)
 FROM employees
 GROUP BY last_name
 ORDER BY COUNT(last_name) DESC;
 
--- Epilogue - search your own ID number:  499942
+-- Epilogue - search your ID number:  499942
 -- Use employees table
 SELECT * FROM employees
 WHERE emp_no = '499942';
