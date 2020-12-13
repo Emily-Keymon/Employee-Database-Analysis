@@ -31,9 +31,14 @@ The goal of this project was to design the tables to hold data in the provided C
 3.  Imported employee data CSV datasets into appropriate tables.
 
 ### Data Analysis
-1.  
-
-
+1.  Created a query to determine employee number, last name, first name, sex and salary using employee and salary tables.
+2.  Created a query to determine first name, last name and hire date for employees hired in 1986 using employees table.
+3.  Created a query to determine the manager of each department with department number, department name, manager's employee number, last name and first name.  Used the following tables:   dept_manager, departments, employees.
+4.   Created a query to determine the department of each employee with employee number, last name, first name, department name.  Used the following tables:  employees, departments, dept_emp .
+5.  Created a query to determine first name, last name and sex for employees whose first name is "Hercules" and last name begins with "B" using employees table.
+6.  Created a query to determine  employees in the sales department - include employee number, last name, first name and department name.  Used the following tables:  employees, departments, dept_emp.
+7.  Created a query to determine  employees in the sales and development departments - include employee number, last name, first name and department name.  Used the following tables:  employees, departments, dept_emp.
+8.  Created a query to determine the frequency count of employees last names in descending order using the employees table.
 
 ---
 ## Results
