@@ -58,7 +58,7 @@ The goal of this project was to design the tables to hold data in the provided C
 ![Data Modeling - ERD](https://user-images.githubusercontent.com/64673015/102024405-83f12480-3d57-11eb-8b5f-b6570d6420c7.png)
 
 ### Data Engineering
-[schema.sql.txt](https://github.com/Emily-Keymon/School-District-Test-Score-Analysis/files/5685495/schema.sql.txt)
+![data_engineering_sql](https://user-images.githubusercontent.com/64673015/102024734-6cb33680-3d59-11eb-938d-1ba8c5856a9d.PNG)
 
 
 ### Data Analysis
