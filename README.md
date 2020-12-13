@@ -67,6 +67,14 @@ The goal of this project was to design the tables to hold data in the provided C
 
 
 ### Data Analysis
+1.  https://github.com/Emily-Keymon/Employee-Database-Analysis/blob/master/EmployeeSQL/output/query_1.csv
+2.  https://github.com/Emily-Keymon/Employee-Database-Analysis/blob/master/EmployeeSQL/output/query_2.csv
+3.  https://github.com/Emily-Keymon/Employee-Database-Analysis/blob/master/EmployeeSQL/output/query_3.csv
+4.  https://github.com/Emily-Keymon/Employee-Database-Analysis/blob/master/EmployeeSQL/output/query_4.csv
+5.  https://github.com/Emily-Keymon/Employee-Database-Analysis/blob/master/EmployeeSQL/output/query_5.csv
+6.  https://github.com/Emily-Keymon/Employee-Database-Analysis/blob/master/EmployeeSQL/output/query_6.csv
+7.  https://github.com/Emily-Keymon/Employee-Database-Analysis/blob/master/EmployeeSQL/output/query_7.csv
+8.  https://github.com/Emily-Keymon/Employee-Database-Analysis/blob/master/EmployeeSQL/output/query_8.csv
 
 ### Visualizations
 #### Histogram
