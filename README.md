@@ -19,16 +19,16 @@ The goal of this project was to design the tables to hold data in the provided C
 
 ---
 ## Tasks
-###
-1.
-
+### Data Modeling
+1.  Inspected employee data CSV datasets.
+2.  Determined primary and foreigh keys based on data.
+3.  Created table schema using https://www.quickdatabasediagrams.com/
+4.  
 
 
 
 ---
 ## Results
-
-
 
 
 
