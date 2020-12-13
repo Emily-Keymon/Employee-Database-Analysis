@@ -12,7 +12,10 @@ The goal of this project was to design the tables to hold data in the provided C
 
 ---
 ## Tools Used
-*
+* Jupyter Notebook
+* Python - Pandas, Matplotlib
+* PostgreSQL
+* pgAdmin 4 - PostgreSQL IDE
 
 ---
 ## Tasks
