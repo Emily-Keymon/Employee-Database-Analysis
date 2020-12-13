@@ -4,10 +4,15 @@ The goal of this project was to design the tables to hold data in the provided C
 ---
 ## Datasets
 * https://github.com/Emily-Keymon/Employee-Database-Analysis/blob/master/EmployeeSQL/data/departments.csv
+
 * https://github.com/Emily-Keymon/Employee-Database-Analysis/blob/master/EmployeeSQL/data/dept_manager.csv
+
 * https://github.com/Emily-Keymon/Employee-Database-Analysis/blob/master/EmployeeSQL/data/dept_emp.csv
+
 * https://github.com/Emily-Keymon/Employee-Database-Analysis/blob/master/EmployeeSQL/data/employees.csv
+
 * https://github.com/Emily-Keymon/Employee-Database-Analysis/blob/master/EmployeeSQL/data/salaries.csv
+
 * https://github.com/Emily-Keymon/Employee-Database-Analysis/blob/master/EmployeeSQL/data/titles.csv
 
 ---
