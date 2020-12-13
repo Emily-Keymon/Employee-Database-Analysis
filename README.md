@@ -54,4 +54,20 @@ The goal of this project was to design the tables to hold data in the provided C
 
 ---
 ## Results
+### Data Modeling
+![Data Modeling - ERD](https://user-images.githubusercontent.com/64673015/102024405-83f12480-3d57-11eb-8b5f-b6570d6420c7.png)
+
+### Data Engineering
+
+
+### Data Analysis
+
+### Visualizations
+#### Histogram
+![histogram](https://user-images.githubusercontent.com/64673015/102024437-b438c300-3d57-11eb-872e-dd7c5899f6c7.png)
+
+#### Bar chart
+![barchart](https://user-images.githubusercontent.com/64673015/102024447-be5ac180-3d57-11eb-9bbc-9f92b8041a6d.png)
+
+
 
